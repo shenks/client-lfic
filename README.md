@@ -1,8 +1,29 @@
-# React + Vite
+### `Client Project - lfic webpage`
+### `Check out the live demo` 👉 [here](https://client-lfic.vercel.app/).
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Simple webpage for client
 
-Currently, two official plugins are available:
+## Build & Dependencies
+- Vite framework
+- Tailwind CSS for vite
+- slick-carousel
+- Font Awesome toolkit
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+
+- [Installation](#installation)
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/shenks/client-lfic.git
+
+2. install dependencies
+   ```bash
+   npm install
+
+2. run locally
+   ```bash
+   npm run dev
