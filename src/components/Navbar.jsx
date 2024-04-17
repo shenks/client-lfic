@@ -1,22 +1,26 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <nav className="flex justify-between items-center p-12 bg-orange-100">
-      <a href="/" className="font-bold text-green-600 text-3xl">
+      <Link to="/" className="font-bold text-green-600 text-3xl">
         Living Faith International Church
-      </a>
-      <div className="flex items-center">
-        <ul className="flex gap-8">
+      </Link>
+      <div className="flex items-center text-2xl">
+        <ul className="flex gap-20">
           <li>
-            <a href="/about" className="text-green-600 hover:text-gray-500">
+            <Link to="/about" className="text-green-600 hover:text-gray-500">
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/contact" className="text-green-600 hover:text-gray-500">
+            <Link
+              to="/contact"
+              className="text-green-600 hover:text-gray-500"
+            >
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </div>
